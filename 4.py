@@ -15,4 +15,4 @@ with open("website.log","r") as f:
     with open("output.txt","w+") as nf:
         for a in lines:
             a=a.split(" ")
-            nf.write("ip : {a[0]} \n date : {a[3]} \n method : {a[5]} \n path :{a[6]} \n path :{a[7]} ")
+            nf.write(f"ip : {a[0]} \n date : {a[3]} \n method : {a[5]} \n path :{a[6]} \n path :{a[7]} ")
